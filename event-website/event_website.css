@@ -1,0 +1,216 @@
+body{
+    background-color:cornsilk;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    color: #140430;
+}
+.upper_nav_items, .lower_nav_items{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    color: #140430;
+   
+}
+.lower_nav, .upper_nav, .header_container, .featured_stars_ctn{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.upper_nav{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.upper_nav_items li{
+    color: white;
+    cursor: pointer;
+}
+.lower_nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.lower_nav_items li{
+    color: black;
+    cursor: pointer;
+}
+.campaign{
+    border-color: red;
+    background-color: white;
+    color: red;
+    height: 45px;
+    cursor: pointer;
+}
+.header_section{
+    /*For Background image*/
+    background-image:url('./images/headerbg.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-size:cover;
+    background-position: center center;
+}
+.header_section h2{
+    color:white;
+    padding-top: 45px;
+    margin-top:0;
+    text-transform: capitalize;
+    font-size: 45px;
+    color: red;
+}
+.header_section br{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.header_section .header_information{
+    border:2px snow grey;
+    width: fit-content;
+}
+.header_section .header_information p{
+   color: white;
+   background-color: black;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.header_section h1{
+    font-size: 65px;
+text-transform: capitalize;
+  color:white;
+  background-color: unset;
+  text-align: left;
+}
+.header_section p{
+    color:darkgray;
+}
+.header_section h3{
+    color: darkgray;
+}
+.main_section{
+    background-color: black;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.main_section h2{
+    padding-bottom: 35px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding-top: 35px;
+}
+.card{
+  background-color: black;
+    width: 200px;
+    padding:15px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card_img{
+    width:150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.card_img img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+
+}
+.about_icons{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header_4 h3{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.about_stars .card{
+   display: flex;
+   background-position: center center;
+    padding-top: 45px;
+   padding-bottom: 45px;
+    width: 500px;
+}
+.about_stars{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgray;
+}
+.about_stars h1{
+    color:white;
+    background-color: black;
+    text-align: center;
+
+}
+.about_stars p , h4{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header_information{
+    background-color: black;
+    color: white;
+}.featured_stars_ctn, h1, .card{
+    background-color: darkgray;
+    box-shadow: none;
+    text-align: center;
+    background-color:darkgray;
+    margin: 0px;
+    padding-top: 15px;
+}
+.featured_stars_ctn, .about_card{
+text-align: left;
+}
+.lorem{
+    font-size: 31px;
+    color: rgb(216, 7, 7);
+    font-size: smaller;
+}
+.about_card p{
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-left: 75px;
+    padding-right:75px;
+    font-size: smaller;
+}
+footer, .logo{
+    padding-right: 300px;
+}
+.Credits{
+color: red;
+}
+h3{
+    color: red;
+}
+.featured_stars_ctn, h4{
+    color: black;
+}
+.header_4{
+    color: white;
+}
+
